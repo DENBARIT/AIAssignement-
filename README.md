@@ -1,10 +1,10 @@
- Extended LSTM Cell Implementation (From Scratch)
+### Extended LSTM Cell Implementation (From Scratch)
 
 This project demonstrates a manual implementation of an Extended Long Short-Term Memory (LSTM) cell using NumPy, without relying on deep learning frameworks such as TensorFlow or PyTorch.
 
 The purpose of this implementation is educational — to clearly show how LSTM gates and internal states work step-by-step.
 
-Project Objectives
+###Project Objectives
 
 Implement an LSTM cell from scratch
 
@@ -26,7 +26,7 @@ Track and visualize how hidden and cell states evolve over time
 
 Provide transparent numerical outputs for learning and analysis
 
-Key Features
+###Key Features
 
 Manual implementation of LSTM equations
 
@@ -42,14 +42,14 @@ Cell state (c)
 
 Lightweight and easy to understand
 
-🛠️ Technologies Used
+### Technologies Used
 
 Python 3
 
 NumPy
 
 Matplotlib
- Project Structure
+ ###Project Structure
 .
 ├── Lstm.py        # Main Python script
 ├── README.md      # Project documentation
@@ -341,7 +341,7 @@ t
 
 )
 
- Authors
+ ###Authors
 
 Samuel Dessalegn — UGR/2304/14
 
@@ -351,7 +351,7 @@ Yohannes Wale — UGR/1232/14
 
 Yohannes Alemu — UGR/8644/15
 
-Academic Use
+###Academic Use
 
 This project is suitable for:
 
@@ -363,7 +363,7 @@ Neural Networks assignments
 
 Understanding LSTM internals conceptually
 
- License
+### License
 
 This project is provided for educational purposes.
 You may reuse or modify it with proper attribution.
