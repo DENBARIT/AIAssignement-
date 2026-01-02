@@ -1,10 +1,10 @@
-📘 Extended LSTM Cell Implementation (From Scratch)
+ Extended LSTM Cell Implementation (From Scratch)
 
 This project demonstrates a manual implementation of an Extended Long Short-Term Memory (LSTM) cell using NumPy, without relying on deep learning frameworks such as TensorFlow or PyTorch.
 
 The purpose of this implementation is educational — to clearly show how LSTM gates and internal states work step-by-step.
 
-📌 Project Objectives
+Project Objectives
 
 Implement an LSTM cell from scratch
 
@@ -26,7 +26,7 @@ Track and visualize how hidden and cell states evolve over time
 
 Provide transparent numerical outputs for learning and analysis
 
-🧠 Key Features
+Key Features
 
 Manual implementation of LSTM equations
 
@@ -49,11 +49,11 @@ Python 3
 NumPy
 
 Matplotlib
-📂 Project Structure
+ Project Structure
 .
 ├── Lstm.py        # Main Python script
 ├── README.md      # Project documentation
-▶️ How to Run the Code
+ How to Run the Code
 
 1.Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
@@ -62,7 +62,7 @@ cd your-repo-name
 pip install numpy matplotlib
 3.Run the script
 python Lstm.py
-🔢 Example Input Sequence
+ Example Input Sequence
 inputs = [5,1.9,2]
 The model processes each value sequentially and prints:
 
@@ -78,7 +78,7 @@ Output gate value
 
 Candidate cell value
 
-📊 Output Visualization
+ Output Visualization
 
 The script generates a plot showing:
 
@@ -88,7 +88,7 @@ Cell State (c) over time
 
 This helps visualize how memory is preserved and updated across time steps.
 
-📘 Mathematical Overview
+ Mathematical Overview
 
 At each time step, the LSTM computes:
 
@@ -341,7 +341,7 @@ t
 
 )
 
-👥 Authors
+ Authors
 
 Samuel Dessalegn — UGR/2304/14
 
@@ -351,7 +351,7 @@ Yohannes Wale — UGR/1232/14
 
 Yohannes Alemu — UGR/8644/15
 
-📚 Academic Use
+Academic Use
 
 This project is suitable for:
 
@@ -363,7 +363,7 @@ Neural Networks assignments
 
 Understanding LSTM internals conceptually
 
-📜 License
+ License
 
 This project is provided for educational purposes.
 You may reuse or modify it with proper attribution.
